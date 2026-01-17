@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    background-color: gainsboro;
+}
+
+#setTimer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+
+}
+
+#timerCountdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-size: clamp(2rem, 15vw, 8rem);
+    font-weight: bold;
+}
